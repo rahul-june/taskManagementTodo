@@ -22,7 +22,7 @@ To run this application locally, follow these steps:
 4. **Clone the Repository**
 
    ```bash
-   npm run dev
+   npm start
 
 
 ## Features 

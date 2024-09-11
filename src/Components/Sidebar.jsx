@@ -1,3 +1,4 @@
+import { connect } from 'react-redux';
 import React, { useEffect, useState } from 'react';
 import { Home, MessageCircle, CheckSquare, Users, Settings, Menu, X, Plus } from 'lucide-react';
 import { Popover, TextField, Button } from '@mui/material';
@@ -216,7 +217,7 @@ const Sidebar = ({ addTodo ,fetchtodo,setProjectNamefun}) => {
 };
 
 // Redux connection
-import { connect } from 'react-redux';
+
 
 
 const mapDispatchToProps = (dispatch) => ({
